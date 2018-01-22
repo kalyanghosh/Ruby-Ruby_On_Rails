@@ -1,8 +1,12 @@
-my_hash = { "name" => "Eric",
-  "age" => 26,
-  "hungry?" => true
-}
+class Hashes
+end
 
-puts my_hash["name"]
-puts my_hash["age"]
-puts my_hash["hungry?"]
+other_hash={'WB'=>"West Bengal",'AP'=>"Andra Pradesh"}
+puts other_hash.length
+puts other_hash.empty?
+
+puts other_hash.has_key?('WB')
+puts other_hash.has_key?('D')
+puts other_hash['WB']
+puts other_hash.values
+puts other_hash.keys
